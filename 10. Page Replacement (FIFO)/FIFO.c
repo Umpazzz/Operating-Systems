@@ -1,5 +1,5 @@
 #include <stdio.h>
-intmain()
+int main()
 {
   int referenceString[10], pageFaults= 0, m, n, s, pages, frames;
   printf("\nEnterthe number of Pages:\t");
