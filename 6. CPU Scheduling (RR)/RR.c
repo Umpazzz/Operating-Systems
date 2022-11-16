@@ -1,8 +1,8 @@
 #include<stdio.h>
-intmain()
+int main()
 {
-  intcount,j,n,exittime,remain,flag=0,time_quantum;
-  intAT[6],BT[6],RT[6];
+  int count,j,n,exittime,remain,flag=0,time_quantum;
+  int AT[6],BT[6],RT[6];
   float WT=0,TAT=0;
   printf("Enter Total Process:\t ");
   scanf("%d",&n);
