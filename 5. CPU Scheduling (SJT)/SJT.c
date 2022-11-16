@@ -35,4 +35,11 @@ for(time = 0; count != n; time++)
       WT = WT + exitime-AT[smallest] -temp[smallest];
       TAT = TAT + exitime-AT[smallest];
       }
+  }
+  
+  average_waiting_time = WT /n;
+  average_TAT = TAT /n;
+  printf("\n\nAverage Waiting Time=\t%f\n",average_waiting_time);
+  printf("Average Turnaround Time=\t%f\n",average_TAT);
+  return 0;
 }
