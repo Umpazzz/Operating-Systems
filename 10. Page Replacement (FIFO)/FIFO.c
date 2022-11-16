@@ -1,7 +1,7 @@
 #include <stdio.h>
 intmain()
 {
-  intreferenceString[10], pageFaults= 0, m, n, s, pages, frames;
+  int referenceString[10], pageFaults= 0, m, n, s, pages, frames;
   printf("\nEnterthe number of Pages:\t");
   scanf("%d", &pages);
   printf("\n What are the total number of frames:\t");
@@ -16,7 +16,7 @@ intmain()
     scanf("%d", &referenceString[m]);
   }
   
-  inttemp[frames];
+  int temp[frames];
   for(m = 0; m < frames; m++)
   {
      temp[m] = -1;
