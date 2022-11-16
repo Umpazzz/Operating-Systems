@@ -1,8 +1,8 @@
 #include <stdio.h>
-intmain()
+int main()
 {
-  intAT[10], BT[10], temp[10];
-  inti, smallest, count = 0, time, n;
+  int AT[10], BT[10], temp[10];
+  int i, smallest, count = 0, time, n;
   double WT = 0, TAT = 0, exitime;
   float average_waiting_time, average_TAT;
   printf("\nEnterthe Total Number of Processes:\t");
