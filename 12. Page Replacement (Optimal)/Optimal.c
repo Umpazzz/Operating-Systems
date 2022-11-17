@@ -86,4 +86,6 @@ Enter page reference string: 4 5 7 4 3 5 7 5
 3 5 7
 3 5 7
 3 5 7
-3 5 7 */
+3 5 7 
+
+TotalPage miss = 4 */
