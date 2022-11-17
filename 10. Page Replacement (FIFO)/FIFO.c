@@ -50,3 +50,25 @@ int main()
 printf("\nTotalPage Faults:\t%d\n", pageFaults);
 return 0;
 }
+
+/* Enter the number of Pages:  7
+
+ What are the total number of frames:   3
+
+Enterreference string values:
+Value No. [1]:  1
+Value No. [2]:  3
+Value No. [3]:  0
+Value No. [4]:  3
+Value No. [5]:  5
+Value No. [6]:  6
+Value No. [7]:  3
+
+1   -1  -1
+1   3   -1
+1   3   0
+1   3   0
+5   3   0
+5   6   0
+5   6   3
+TotalPage Faults:   6 */
