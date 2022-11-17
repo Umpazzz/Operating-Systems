@@ -76,3 +76,33 @@ int main()
 printf("\nTotalNumber of Page Faults:\t%d\n", page_fault);
 return 0;
 }
+
+/* EnterTotal Number of Frames:    4
+Enter Total Number of Pages:    12
+Enter Values for Reference String:
+Value No.[1]:   1
+Value No.[2]:   2
+Value No.[3]:   3
+Value No.[4]:   4
+Value No.[5]:   1
+Value No.[6]:   2
+Value No.[7]:   5
+Value No.[8]:   1
+Value No.[9]:   2
+Value No.[10]:  3
+Value No.[11]:  4
+Value No.[12]:  5
+
+1   -1  -1  -1
+1   2   -1  -1
+1   2   3   -1
+1   2   3   4
+1   2   3   4
+1   2   3   4
+1   2   5   4
+1   2   5   4
+1   2   5   4
+1   2   5   3
+1   2   4   3
+5   2   4   3
+TotalNumber of Page Faults: 8 */
